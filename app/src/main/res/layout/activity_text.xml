@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- 1. TextView -->
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Demostración: TextView + EditText"
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- 2. EditText -->
+        <EditText
+            android:id="@+id/editInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribe algo aquí" />
+
+        <!-- 3. TextView (para mostrar resultado) -->
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resultado aparecerá aquí"
+            android:layout_marginTop="8dp"/>
+
+        <!-- 4. Botón para mostrar -->
+        <Button
+            android:id="@+id/btnShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mostrar texto"
+            android:layout_marginTop="8dp"/>
+
+        <!-- 5. Botón para regresar -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regresar al Menú"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+</ScrollView>

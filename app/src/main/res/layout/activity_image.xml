@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Demostración de ImageView"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- ImageView ejemplo -->
+        <ImageView
+            android:id="@+id/imgExample"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:contentDescription="Imagen de ejemplo"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Botón para cambiar la imagen -->
+        <Button
+            android:id="@+id/btnChangeImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cambiar Imagen"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Botón regresar al menú -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regresar al Menú"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</ScrollView>
